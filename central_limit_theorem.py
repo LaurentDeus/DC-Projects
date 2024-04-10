@@ -9,6 +9,8 @@ np.random.seed(104)
 
 
 amir_deals = pd.read_csv('./datasets/amir_deals.csv')
+all_deals = pd.read_csv('./datasets/amir_deals.csv')
+
 
 sample_means = []
 # Loop 100 times
