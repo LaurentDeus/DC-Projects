@@ -1,5 +1,14 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+
 # Set seed to 104
 np.random.seed(104)
+
+
+amir_deals = pd.read_csv('./datasets/amir_deals.csv')
 
 sample_means = []
 # Loop 100 times
